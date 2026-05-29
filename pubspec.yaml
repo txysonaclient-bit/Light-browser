@@ -1,5 +1,5 @@
 name: light_browser
-description: Light Browser - The Only Browser You Need
+description: Light Browser - Fast, Private, Smart
 version: 1.0.0+1
 publish_to: 'none'
 
@@ -9,38 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # Core Browser Engine
   flutter_inappwebview: ^6.0.0
-
-  # State Management
   provider: ^6.1.0
-
-  # Storage
   shared_preferences: ^2.2.0
-  sqflite: ^2.3.0
-  path_provider: ^2.1.0
-  path: ^1.8.3
-
-  # UI
   google_fonts: ^6.1.0
-  flutter_svg: ^2.0.7
-  lottie: ^3.0.0
-
-  # Features
   url_launcher: ^6.2.0
-  share_plus: ^7.2.1
-  permission_handler: ^11.0.1
-  connectivity_plus: ^5.0.2
-  speech_to_text: ^6.3.0
-  flutter_tts: ^3.8.3
-
-  # Networking (AI)
-  http: ^1.1.0
-
-  # QR & Utils
-  mobile_scanner: ^4.0.0
-  flutter_colorpicker: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -49,6 +22,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/
-    - assets/icons/
